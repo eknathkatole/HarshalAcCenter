@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshal AC Center | Premium HVAC Services Pune</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            light: '#2dd4bf', // Teal 400
+                            DEFAULT: '#0d9488', // Teal 600
+                            dark: '#115e59', // Teal 800
+                            accent: '#f97316', // Orange 500
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Roboto', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .service-card:hover .service-icon { transform: scale(1.1) rotate(-5deg); }
+        .gallery-img { transition: transform 0.5s ease; }
+        .gallery-item:hover .gallery-img { transform: scale(1.1); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700 font-sans antialiased">
+
+    <div class="bg-slate-900 text-slate-300 py-2 text-xs md:text-sm">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <p><i class="fas fa-map-marker-alt mr-2 text-brand"></i> Serving Pune, Chinchwad & Pimpri Areas</p>
+            <div class="flex space-x-4">
+                <a href="mailto:harshal332@gmail.com" class="hover:text-brand-light transition"><i class="fas fa-envelope mr-1"></i> Get Quote</a>
+                <span class="hidden md:inline">|</span>
+                <span class="hidden md:inline"><i class="fas fa-clock mr-1"></i> Mon-Sat: 9AM - 8PM</span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-lg border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <i class="fas fa-fan text-3xl text-brand animate-spin-slow" style="animation-duration: 3s;"></i>
+                    <div>
+                        <h1 class="text-2xl font-heading font-extrabold text-slate-800 tracking-tight">HARSHAL <span class="text-brand">HVAC</span></h1>
+                        <p class="text-[0.65rem] font-bold text-slate-400 uppercase tracking-widest">Cooling Experts</p>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+                    <a href="#home" class="hover:text-brand transition py-2 border-b-2 border-transparent hover:border-brand">Home</a>
+                    <a href="#about" class="hover:text-brand transition py-2 border-b-2 border-transparent hover:border-brand">About</a>
+                    <a href="#services" class="hover:text-brand transition py-2 border-b-2 border-transparent hover:border-brand">Services</a>
+                    <a href="#gallery" class="hover:text-brand transition py-2 border-b-2 border-transparent hover:border-brand">Our Work</a>
+                </div>
+
+                <div class="hidden md:block">
+                    <a href="tel:9665104477" class="bg-brand hover:bg-brand-dark text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-brand/30 transition transform hover:-translate-y-0.5">
+                        <i class="fas fa-phone mr-2"></i> 9665104477
+                    </a>
+                </div>
+
+                <div class="md:hidden text-2xl text-slate-800">
+                    <i class="fas fa-bars cursor-pointer"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-bg h-[85vh] flex items-center relative">
+        <div class="max-w-7xl mx-auto px-4 w-full grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-white space-y-6">
+                <div class="inline-block bg-brand-accent px-3 py-1 rounded text-xs font-bold uppercase tracking-wider mb-2">
+                    #1 AC Service in Pune
+                </div>
+                <h1 class="text-5xl md:text-7xl font-heading font-extrabold leading-tight">
+                    Beat the <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-light to-brand">Heat</span> This Summer.
+                </h1>
+                <p class="text-lg text-slate-300 max-w-lg leading-relaxed">
+                    Professional AC installation, precision piping, and urgent repairs in Pune. We restore comfort to your home and office instantly.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a href="#contact" class="bg-brand hover:bg-brand-light text-white text-center px-8 py-4 rounded-lg font-bold text-lg shadow-xl hover:shadow-2xl transition">
+                        Book Service Now
+                    </a>
+                    <a href="#services" class="bg-white/10 backdrop-blur-sm border border-white/30 hover:bg-white/20 text-white text-center px-8 py-4 rounded-lg font-bold text-lg transition">
+                        View Packages
+                    </a>
+                </div>
+                <div class="flex gap-8 pt-8 text-slate-400 text-sm font-semibold">
+                    <div class="flex items-center"><i class="fas fa-check-circle text-brand mr-2"></i> 100% Guaranteed</div>
+                    <div class="flex items-center"><i class="fas fa-check-circle text-brand mr-2"></i> Expert Technicians</div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 bg-white relative -mt-20 z-10 mx-4 md:mx-12 rounded-2xl shadow-2xl border-t-4 border-brand">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center px-8">
+            <div class="space-y-2">
+                <h3 class="text-4xl font-heading font-bold text-slate-800">5+</h3>
+                <p class="text-slate-500 font-medium text-sm uppercase">Years Experience</p>
+            </div>
+            <div class="space-y-2">
+                <h3 class="text-4xl font-heading font-bold text-slate-800">1200+</h3>
+                <p class="text-slate-500 font-medium text-sm uppercase">ACs Repaired</p>
+            </div>
+            <div class="space-y-2">
+                <h3 class="text-4xl font-heading font-bold text-slate-800">24/7</h3>
+                <p class="text-slate-500 font-medium text-sm uppercase">Emergency Support</p>
+            </div>
+            <div class="space-y-2">
+                <h3 class="text-4xl font-heading font-bold text-slate-800">4.9</h3>
+                <p class="text-slate-500 font-medium text-sm uppercase">Star Rating</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand font-bold tracking-wider uppercase text-sm">What We Do</span>
+                <h2 class="text-4xl font-heading font-bold text-slate-900 mt-2 mb-4">Complete Cooling Solutions</h2>
+                <p class="text-slate-600">From commercial VRF systems to home split units, Harshal AC Center handles it all with precision tools and genuine parts.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1621905252507-b35492ccba0b?q=80&w=800&auto=format&fit=crop" alt="AC Repair" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="w-12 h-12 bg-brand/10 rounded-lg flex items-center justify-center mb-6 service-icon transition duration-300">
+                            <i class="fas fa-tools text-2xl text-brand"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Repair & Maintenance</h3>
+                        <p class="text-slate-600 mb-4 text-sm leading-relaxed">Diagnosis of cooling issues, water leakage fixes, and PCB repairs using advanced diagnostic tools.</p>
+                        <ul class="text-sm text-slate-500 space-y-2">
+                            <li><i class="fas fa-check text-brand text-xs mr-2"></i> Deep Jet Cleaning</li>
+                            <li><i class="fas fa-check text-brand text-xs mr-2"></i> Gas Leakage Detection</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://plus.unsplash.com/premium_photo-1663040366624-9b889b9643d9?q=80&w=800&auto=format&fit=crop" alt="Piping" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="w-12 h-12 bg-brand/10 rounded-lg flex items-center justify-center mb-6 service-icon transition duration-300">
+                            <i class="fas fa-bezier-curve text-2xl text-brand"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Copper Piping</h3>
+                        <p class="text-slate-600 mb-4 text-sm leading-relaxed">Underground and concealed copper piping for new constructions. We use high-gauge copper for durability.</p>
+                        <ul class="text-sm text-slate-500 space-y-2">
+                            <li><i class="fas fa-check text-brand text-xs mr-2"></i> Concealed Wiring</li>
+                            <li><i class="fas fa-check text-brand text-xs mr-2"></i> Insulation Wrapping</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1599587428362-e4231f4df0a9?q=80&w=800&auto=format&fit=crop" alt="Installation" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-8">
+                        <div class="w-12 h-12 bg-brand/10 rounded-lg flex items-center justify-center mb-6 service-icon transition duration-300">
+                            <i class="fas fa-snowflake text-2xl text-brand"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Installation & Gas</h3>
+                        <p class="text-slate-600 mb-4 text-sm leading-relaxed">Professional mounting of Split and Window ACs. Eco-friendly gas refilling (R32, R410A) services.</p>
+                        <ul class="text-sm text-slate-500 space-y-2">
+                            <li><i class="fas fa-check text-brand text-xs mr-2"></i> Vacuum & Testing</li>
+                            <li><i class="fas fa-check text-brand text-xs mr-2"></i> Drill-free Mounting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold mb-2">Recent Projects</h2>
+                    <p class="text-slate-400">A glimpse of our work across Pune & Pimpri-Chinchwad.</p>
+                </div>
+                <a href="#contact" class="hidden md:inline-block text-brand hover:text-white transition mt-4 md:mt-0">View All Projects <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="gallery-item overflow-hidden rounded-xl relative group h-64 md:h-80 col-span-2">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1000&auto=format&fit=crop" class="gallery-img w-full h-full object-cover" alt="Modern Interior AC">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                        <span class="font-bold text-lg">Commercial Installation</span>
+                    </div>
+                </div>
+                <div class="gallery-item overflow-hidden rounded-xl relative group h-64 md:h-80">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800&auto=format&fit=crop" class="gallery-img w-full h-full object-cover" alt="Technician Working">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                        <span class="font-bold text-lg">Maintenance</span>
+                    </div>
+                </div>
+                <div class="gallery-item overflow-hidden rounded-xl relative group h-64 md:h-80">
+                    <img src="https://plus.unsplash.com/premium_photo-1678738362534-73891461f5c6?q=80&w=800&auto=format&fit=crop" class="gallery-img w-full h-full object-cover" alt="AC Unit">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+                        <span class="font-bold text-lg">Gas Refill</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-brand/5">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-heading font-bold text-center mb-12 text-slate-800">Trusted by Pune Locals</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+                    <div class="flex text-brand mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-6">"Harshal AC Center solved my leaking AC problem in just 30 minutes. Very professional and clean work. Highly recommended for people in Chinchwad."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-500">RK</div>
+                        <div class="ml-3">
+                            <h4 class="font-bold text-slate-900">Rahul Kulkarni</h4>
+                            <span class="text-xs text-slate-500">Resident, Laxman Nagar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+                    <div class="flex text-brand mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-6">"Great service for concealed piping. They did the work before my false ceiling was installed and it was perfect. Affordable rates too."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-500">AP</div>
+                        <div class="ml-3">
+                            <h4 class="font-bold text-slate-900">Amit Patil</h4>
+                            <span class="text-xs text-slate-500">Resident, Wakad</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-900 text-slate-300">
+        <div class="bg-brand py-12 px-4">
+            <div class="max-w-5xl mx-auto text-center text-white">
+                <h2 class="text-3xl font-bold mb-4">Ready to fix your AC?</h2>
+                <p class="mb-8 text-brand-dark/80 text-lg">Call us now for a free estimate or to schedule a visit.</p>
+                <div class="flex justify-center gap-4">
+                    <a href="tel:9665104477" class="bg-white text-brand font-bold py-3 px-8 rounded-full shadow-lg hover:bg-slate-100 transition"><i class="fas fa-phone mr-2"></i> Call Now</a>
+                    <a href="https://wa.me/919665104477" class="bg-green-500 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-green-600 transition"><i class="fab fa-whatsapp mr-2"></i> WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 py-16 grid md:grid-cols-3 gap-12 border-b border-slate-800">
+            <div>
+                <h3 class="text-2xl font-bold text-white mb-6">Harshal <span class="text-brand">AC Center</span></h3>
+                <p class="text-slate-400 leading-relaxed mb-6">
+                    Your local partner for all things HVAC. We bring comfort to your doorstep with honesty and technical expertise.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 rounded bg-slate-800 flex items-center justify-center hover:bg-brand hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="w-10 h-10 rounded bg-slate-800 flex items-center justify-center hover:bg-brand hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-lg mb-6">Quick Links</h4>
+                <ul class="space-y-3">
+                    <li><a href="#home" class="hover:text-brand transition">Home</a></li>
+                    <li><a href="#services" class="hover:text-brand transition">AC Maintenance</a></li>
+                    <li><a href="#services" class="hover:text-brand transition">Installation</a></li>
+                    <li><a href="#contact" class="hover:text-brand transition">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-lg mb-6">Get in Touch</h4>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <i class="fas fa-map-marker-alt mt-1 mr-3 text-brand"></i>
+                        <span>Pune, Chinchwad, Santosh Nagar,<br>Laxman Nagar Area.</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-phone-alt mr-3 text-brand"></i>
+                        <a href="tel:9665104477" class="hover:text-white transition">9665104477</a>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-envelope mr-3 text-brand"></i>
+                        <a href="mailto:harshal332@gmail.com" class="hover:text-white transition">harshal332@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center py-6 text-sm text-slate-600">
+            &copy; 2026 Harshal AC Center. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
